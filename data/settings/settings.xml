@@ -30,15 +30,15 @@
 	<WebMail>
 		<AllowWebMail>On</AllowWebMail>
 		<IncomingMailProtocol>IMAP4</IncomingMailProtocol>
-		<IncomingMailServer>127.0.0.1</IncomingMailServer>
-		<IncomingMailPort>143</IncomingMailPort>
-		<IncomingMailUseSSL>Off</IncomingMailUseSSL>
-		<OutgoingMailServer>127.0.0.1</OutgoingMailServer>
-		<OutgoingMailPort>25</OutgoingMailPort>
+		<IncomingMailServer>imap.mail.us-east-1.awsapps.com</IncomingMailServer>
+		<IncomingMailPort>993</IncomingMailPort>
+		<IncomingMailUseSSL>On</IncomingMailUseSSL>
+		<OutgoingMailServer>smtp.mail.us-east-1.awsapps.com</OutgoingMailServer>
+		<OutgoingMailPort>465</OutgoingMailPort>
 		<OutgoingMailAuth>AuthCurrentUser</OutgoingMailAuth>
 		<OutgoingMailLogin />
 		<OutgoingMailPassword />
-		<OutgoingMailUseSSL>Off</OutgoingMailUseSSL>
+		<OutgoingMailUseSSL>On</OutgoingMailUseSSL>
 		<OutgoingSendingMethod>Specified</OutgoingSendingMethod>
 		<UserQuota>0</UserQuota>
 		<ShowQuotaBar>On</ShowQuotaBar>
