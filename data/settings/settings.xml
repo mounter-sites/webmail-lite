@@ -29,10 +29,11 @@
 	</Common>
 	<WebMail>
 		<AllowWebMail>On</AllowWebMail>
-		<IncomingMailProtocol>IMAP4</IncomingMailProtocol>
+		<IncomingMailProtocol>IMAPS</IncomingMailProtocol>
 		<IncomingMailServer>imap.mail.us-east-1.awsapps.com</IncomingMailServer>
 		<IncomingMailPort>993</IncomingMailPort>
 		<IncomingMailUseSSL>On</IncomingMailUseSSL>
+		<OutgoingMailProtocol>SMTPS</OutgoingMailProtocol>
 		<OutgoingMailServer>smtp.mail.us-east-1.awsapps.com</OutgoingMailServer>
 		<OutgoingMailPort>465</OutgoingMailPort>
 		<OutgoingMailAuth>AuthCurrentUser</OutgoingMailAuth>
